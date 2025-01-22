@@ -46,12 +46,6 @@ def factor(num):
     return lis
     
 
-    
-    
-
-
-
-
 def roots(a, b,c):
     
     lis = []
