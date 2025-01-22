@@ -1,8 +1,34 @@
 
-def Sqr(num):
-    print(num*num)
+def sqr(num):
+    return num*num
 
-def Factor(num):
+
+def sqrt(num):
+    
+    lis = []
+    
+    for i in range(100000):
+        if i*i == num:
+            lis.append(i)
+            lis.append(-i)
+            break
+            
+    return lis
+
+def expo(num, expo):
+    
+    num1 = num
+    
+    for i in range(1, expo):
+        num *= num1
+        
+    return num
+        
+        
+            
+    
+
+def factor(num):
     
     lis = []
 
@@ -26,7 +52,7 @@ def Factor(num):
 
 
 
-def Roots(a, b,c):
+def roots(a, b,c):
     
     lis = []
 
